@@ -127,21 +127,7 @@
     }
   });
 
-  //   $("#send-button").click(function() {
-  //     $.post(
-  //       "http://198.38.92.97:7000/api/mail/send",
-  //       {
-  //         name: $("#name").val(),
-  //         email: $("#email").val(),
-  //         subject: $("#subject").val(),
-  //         body: $("#message").val()
-  //       },
-  //       function(data, status) {
-  //         $("#name").val();
-  //         $("#email").val();
-  //         $("#subject").val();
-  //         $("#message").val();
-  //       }
-  //     );
+  //   $("#send-button").click(function(event) {
+  //     event.preventDefault();
   //   });
 })(jQuery);
