@@ -420,7 +420,7 @@
                     <div>
                       <form
                         action=""
-                        method="post"
+                        method="get"
                         role="form"
                         class="contactForm"
                       >
@@ -476,6 +476,7 @@
                               <textarea
                                 class="form-control"
                                 name="message"
+                                id="message"
                                 rows="5"
                                 data-rule="required"
                                 data-msg="Please write something for us"
@@ -486,7 +487,8 @@
                           </div>
                           <div class="col-md-12">
                             <button
-                              type="submit"
+                              id="send-button"
+                              type="button"
                               class="button button-a button-big button-rouded"
                             >
                               Send Message
