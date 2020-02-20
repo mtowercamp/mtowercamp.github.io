@@ -129,7 +129,7 @@
 
   $("#send-button").click(function() {
     $.post(
-      "http://198.38.92.97:700/api/mail/send",
+      "http://198.38.92.97:7000/api/mail/send",
       {
         name: $("#name").val(),
         email: $("#email").val(),
