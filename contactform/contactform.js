@@ -117,6 +117,8 @@ jQuery(document).ready(function($) {
       url: action,
       data: str,
       success: function(msg) {
+        $("#formspree").addClass("show");
+        $("#formspree").html(msg);
         $(".contactForm")
           .find("input, textarea")
           .val("");
